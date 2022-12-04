@@ -13,6 +13,9 @@ chrome.action.onClicked.addListener(async (tab) => {
       args: [data],
       func: (data) => {
         let input = document.createElement('textarea');
+        input.style.position = 'fixed';
+        input.style.bottom = 0;
+        input.style.left = 0;
         document.body.appendChild(input);
         input.value = data.url;
         input.focus();
