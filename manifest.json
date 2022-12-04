@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Xens URL Shortener",
+  "description": "Automatically shorten URLs and copy the short URL",
+  "version": "1.0",
+  "action": {
+    "default_icon": "xens.png"
+  },
+  "background": {
+    "service_worker": "xens.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["activeTab", "scripting", "clipboardWrite"]
+}
