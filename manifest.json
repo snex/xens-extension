@@ -10,5 +10,5 @@
     "service_worker": "xens.js"
   },
   "host_permissions": ["<all_urls>"],
-  "permissions": ["activeTab", "scripting", "clipboardWrite"]
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "alarms"]
 }
